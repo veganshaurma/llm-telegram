@@ -20,15 +20,17 @@ export function HeroSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-base" asChild>
-                <a href="#pricing">
+              <a href="#pricing">
+                <Button size="lg" className="text-base">
                   <Sparkles className="mr-2 h-5 w-5" />
                   Подключить бота
-                </a>
-              </Button>
-              <Button size="lg" variant="outline" className="text-base bg-transparent" asChild>
-                <a href="#pricing">Посмотреть тариф</a>
-              </Button>
+                </Button>
+              </a>
+              <a href="#pricing">
+                <Button size="lg" variant="outline" className="text-base bg-transparent">
+                  Посмотреть тариф
+                </Button>
+              </a>
             </div>
 
             <p className="text-sm text-muted-foreground">Ссылка на бота появится после подключения</p>

@@ -53,9 +53,9 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Button asChild className="hidden md:inline-flex">
-              <a href="#pricing">Подключить бота</a>
-            </Button>
+            <a href="#pricing" className="hidden md:inline-flex">
+              <Button>Подключить бота</Button>
+            </a>
 
             <button
               className="lg:hidden text-foreground"
@@ -80,9 +80,9 @@ export function Header() {
                   {item.label}
                 </a>
               ))}
-              <Button asChild className="md:hidden">
-                <a href="#pricing">Подключить бота</a>
-              </Button>
+              <a href="#pricing" className="md:hidden">
+                <Button>Подключить бота</Button>
+              </a>
             </div>
           </nav>
         )}

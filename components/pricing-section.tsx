@@ -40,9 +40,9 @@ export function PricingSection() {
               ))}
             </div>
 
-            <Button size="lg" className="w-full text-base" asChild>
-              <a href="https://t.me/eazygptbot">Подключить бота</a>
-            </Button>
+            <a href="https://t.me/eazygptbot" className="w-full">
+              <Button size="lg" className="w-full text-base">Подключить бота</Button>
+            </a>
 
 
             <div className="pt-6 border-t border-border">
